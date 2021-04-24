@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(156, 156, 156);
+  }
+  
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.interact{
+    text-align: center;
+    padding: 30px 0;
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
